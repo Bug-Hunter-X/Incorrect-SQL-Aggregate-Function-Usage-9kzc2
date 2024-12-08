@@ -1,0 +1,3 @@
+# Incorrect SQL Aggregate Function Usage
+This repository demonstrates a common SQL error: using aggregate functions (like COUNT, SUM, AVG) without a corresponding GROUP BY clause.  The provided SQL query attempts to count total orders and include individual customer IDs, which will lead to unexpected results in most database systems.
+The `bug.sql` file contains the erroneous query, while `bugSolution.sql` shows the corrected version.
